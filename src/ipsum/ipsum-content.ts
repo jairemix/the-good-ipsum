@@ -14,7 +14,7 @@ export const ipsumContentArray: IIpsumContent[] = [
     ],
     tag: {
       id: 'pretentious',
-      text: 'Forking Pretentious',
+      text: 'Pretentious',
     },
   },
   {
@@ -29,7 +29,7 @@ export const ipsumContentArray: IIpsumContent[] = [
     ],
     tag: {
       id: 'funny',
-      text: 'Forking funny',
+      text: 'Funny',
     },
   }
 ];
