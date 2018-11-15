@@ -20,7 +20,7 @@ class IpsumTagButton extends React.PureComponent {
   };
 
   render() {
-    let className = 'btn btn-lg btn-block';
+    let className = 'btn btn-lg btn--ftag';
     if (this.props.isSelected) {
       className += ' btn-success';
     } else {
@@ -78,7 +78,7 @@ class App extends React.PureComponent {
         </header>
         <div className="px-4 my-3">
           {this.state.generatedText && <div className="f-generated-text">{this.state.generatedText}</div>}
-          <div className="my-4">
+          <div className="f-tags">
             {this._renderTagButtons()}
           </div>
         </div>

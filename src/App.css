@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  max-width: 720px;
+  margin: auto;
 }
 
 /* .App-logo {
@@ -21,6 +23,13 @@
   font-size: 1.5em;
 }
 
+@media all and (min-width: 600px) {
+  .App-title p {
+    display: inline;
+    margin: 0 0.3rem;
+  }
+}
+
 .App-intro {
   font-size: large;
 }
@@ -34,4 +43,25 @@
   margin-bottom: 1.6rem;
   text-align: left;
   color: #333;
+}
+
+.f-tags {
+  margin: 1.5rem 0;
+}
+
+.btn.btn--ftag {
+  display: block;
+  width: 100%;
+  margin: 0.8rem 0;
+}
+
+@media all and (min-width: 400px) {
+  .f-tags {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .btn.btn--ftag {
+    margin: 0 0.5rem;
+    max-width: 250px;
+  }
 }
